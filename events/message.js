@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const ayarlar = require('../ayarlar.json');
-const { Database } = require("wio.db");
+const Database = require("lundb");
 const  db  = new Database("database.json");
 
 
