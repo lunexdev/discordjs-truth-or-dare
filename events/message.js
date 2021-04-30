@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const ayarlar = require('../ayarlar.json');
-const Database = require("lundb");
-const  db  = new Database("database.json");
+const { JsonDatabase } = require("wio.db");
+const  db  = new JsonDatabase("database.json");
 
 
 module.exports = message => {
