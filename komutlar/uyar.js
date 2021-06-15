@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
-const { JsonDatabase } = require("wio.db");
-const  db  = new JsonDatabase("database.json");
+const database = require("lundb")
+const db = new database()
 const ayarlar = require("../ayarlar.json")
 var prefix = ayarlar.prefix
 
